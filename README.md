@@ -108,6 +108,13 @@ DesiredCapabilities capabilities = new DesiredCapabilities();
         driver.manage().deleteAllCookies(); // delete all cookies
         Thread.sleep(7000); // wait 7 seconds to clear cookies.
 ```
+### Clearing browser cache
+To clear browser cache, the following line of code can be used:
+
+```java
+// Clearing browser Cache after Test
+driver.manage().deleteAllCookies(); // delete all cookies
+Thread.sleep(
 
 ### Executing the Test
 
